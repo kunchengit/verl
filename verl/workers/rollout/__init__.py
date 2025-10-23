@@ -13,7 +13,8 @@
 # limitations under the License.
 
 from .base import BaseRollout, get_rollout_class
+from .dinfer_rollout import DInferRollout
 from .hf_rollout import HFRollout
 from .naive import NaiveRollout
 
-__all__ = ["BaseRollout", "NaiveRollout", "HFRollout", "get_rollout_class"]
+__all__ = ["BaseRollout", "NaiveRollout", "HFRollout", "DInferRollout", "get_rollout_class"]
